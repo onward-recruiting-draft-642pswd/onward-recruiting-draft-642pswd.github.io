@@ -1,0 +1,63 @@
+<div class="page__hero--overlay"
+     style="background-image:
+             radial-gradient(circle at center, #fbf6e8 65%, rgba(251, 246, 232, 0) 85%),
+             linear-gradient(to right, rgba(53, 219, 160, 0.7), rgba(70, 119, 225, 0.7));
+            height: 100vh;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;">
+
+
+
+
+
+
+<div class="wrapper">
+
+        <div class="hero-content">
+            <div class="logo-container margin-bottom margin-top-desktop">
+                <img src="/assets/images/logo.webp" alt="Onward Recruiting Logo" class="header-logo">
+            </div>
+
+            <p class="page__lead margin-bottom"><strong>Ihre Personalberatung für die digitale Zukunft</strong></p>
+
+            <div style="text-align: center">
+                <a href="#kontakt" class="btn btn--cta btn--large">IT-Talente und Jobs – Jetzt finden! <i class="fas fa-handshake"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+
+  </div>
+
+
+</div>
+
+
+
+
+
+
+<script>
+  window.addEventListener('scroll', function() {
+    let scrollPosition = window.scrollY;
+
+    const heroContent = document.querySelector('.hero-content');
+
+    let maxScroll = 1000;
+    let scaleValue = 1 - (scrollPosition / maxScroll);
+
+    if (scaleValue < 0.8) scaleValue = 0.8;
+    if (scaleValue > 1) scaleValue = 1;
+
+    heroContent.style.transform = `scale(${scaleValue})`;
+    heroContent.style.opacity = scaleValue;
+  });
+</script>
+
+
+

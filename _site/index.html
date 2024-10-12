@@ -1,0 +1,551 @@
+<!doctype html>
+<!--
+  OneFlow Jekyll Theme 1.0 by Per Starme
+  Copyright 2024 Per Starke - https://perstarke-webdev.de/
+  Free for personal and commercial use under the MIT license
+  https://opensource.org/license/mit/
+-->
+
+<!--
+  Based on Minimal Mistakes Jekyll Theme.
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose.
+  Copyright 2013-2021 Michael Rose - mademistakes.com | @mmistakes
+  Licensed under MIT.
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Onward - Onward Recruiting</title>
+<meta name="description" content="Ihre Personalberatung für die digitale Zukunft.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Onward Recruiting">
+<meta property="og:title" content="Onward">
+<meta property="og:url" content="http://0.0.0.0:4000/">
+
+
+  <meta property="og:description" content="Ihre Personalberatung für die digitale Zukunft.">
+
+
+
+  <meta property="og:image" content="http://0.0.0.0:4000/assets/images/header.webp">
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://0.0.0.0:4000/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://0.0.0.0:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Onward Recruiting Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--page_home">
+    
+
+<div class="masthead" style="opacity: 0.65 !important; ">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/onward_favicon.png" alt=" "></a>
+        
+        <a class="site-title" href="/">
+           
+          <span class="site-subtitle"> </span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/#ueber" >Über uns</a>
+            </li><li class="masthead__menu-item">
+              <a href="/#vorteile" >Vorteile</a>
+            </li><li class="masthead__menu-item">
+              <a href="/#kandidatinnen" >Als Kandidat:in</a>
+            </li><li class="masthead__menu-item">
+              <a href="/#unternehmen" >Als Unternehmen</a>
+            </li><li class="masthead__menu-item">
+              <a href="/#kontakt" >Kontakt</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+
+    <style>
+
+        .bg {
+          background-image: url();
+        }
+
+        .bg::after {
+           background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        
+
+        }
+    </style>
+
+
+    
+
+        
+        <div id="cookie-banner">
+    Diese Website wird über GitHub Pages zur Verfügung gestellt, was bedeutet, dass sie ein globales Verteilungsnetzwerk (CDN) nutzt, um Inhalte zuverlässig anzuzeigen. Wenn Sie die Website nutzen, können einige Ihrer nicht-personenbezogenen Daten, wie z. B. die IP-Adresse und Informationen zur Seitennutzung, über dieses Netzwerk übertragen werden, um das ordnungsgemäße Funktionieren der Website zu gewährleisten.
+    Mehr Informationen dazu finden Sie im
+    <a href="/imprint#github-pages-und-cdn-nutzung"
+       target="_blank" rel="noopener noreferrer nofollow">
+        Impressum</a><br><br>
+
+
+    Bitte bestätigen Sie, dass Sie damit einverstanden sind und dass wir ein Zustimmungs-Cookie verwenden, das für die Dauer von einem Tag gespeichert wird. Dieses Cookie ermöglicht es uns, Ihre Zustimmung zur Verwendung nicht-personenbezogener Daten zu speichern und das ordnungsgemäße Funktionieren der Website zu gewährleisten<br><br>
+
+    <button class="btn btn--warning" id="cookie-consent-btn">Zustimmen</button>
+</div>
+
+
+
+<!-- JavaScript-code for the cookie consent-banner -->
+<script>
+    if (document.cookie.indexOf('cookieConsent=1') !== -1) {
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+
+  function setCookieConsent() {
+      document.getElementById('cookie-banner').style.display = 'none';
+
+      var expiresDate = new Date();
+      expiresDate.setDate(expiresDate.getDate() + 1);
+
+      document.cookie = 'cookieConsent=1; expires=' + expiresDate.toUTCString() + '; path=/';
+  }
+
+    document.getElementById('cookie-consent-btn').addEventListener('click', setCookieConsent);
+</script>
+        
+
+      <div class="initial-content">
+          <div class="page__hero--overlay"
+     style="background-image:
+             radial-gradient(circle at center, #fbf6e8 65%, rgba(251, 246, 232, 0) 85%),
+             linear-gradient(to right, rgba(53, 219, 160, 0.7), rgba(70, 119, 225, 0.7));
+            height: 100vh;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;">
+
+
+
+
+
+
+<div class="wrapper">
+
+        <div class="hero-content">
+            <div class="logo-container margin-bottom margin-top-desktop">
+                <img src="/assets/images/logo.webp" alt="Onward Recruiting Logo" class="header-logo">
+            </div>
+
+            <p class="page__lead margin-bottom"><strong>Ihre Personalberatung für die digitale Zukunft</strong></p>
+
+            <div style="text-align: center">
+                <a href="#kontakt" class="btn btn--cta btn--large">IT-Talente und Jobs – Jetzt finden! <i class="fas fa-handshake"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+
+  </div>
+
+
+</div>
+
+
+
+
+
+
+<script>
+  window.addEventListener('scroll', function() {
+    let scrollPosition = window.scrollY;
+
+    const heroContent = document.querySelector('.hero-content');
+
+    let maxScroll = 1000;
+    let scaleValue = 1 - (scrollPosition / maxScroll);
+
+    if (scaleValue < 0.8) scaleValue = 0.8;
+    if (scaleValue > 1) scaleValue = 1;
+
+    heroContent.style.transform = `scale(${scaleValue})`;
+    heroContent.style.opacity = scaleValue;
+  });
+</script>
+
+
+
+
+
+<div id="main" role="main">
+    <section class="page__content" itemprop="text">
+      <h1>Ihr Partner für IT-Personalberatung in Bochum</h1>
+
+    <div class="margins-all">
+        Willkommen bei Onward – Ihrer neuen Adresse für die Vermittlung von <strong>Fach- und Führungskräften</strong> in der Tech-Branche. Unser junges und dynamisches Team aus erfahrenen Personalberatern steht Ihnen zur Seite, um optimale Talente für Ihr Unternehmen zu finden oder die besten Karrierechancen für Sie als Kandidat:in zu eröffnen.
+    </div>
+
+<div class="box-container">
+
+    <div class="box box--primary box-half home-box">
+        <i class="fas fa-briefcase"></i><br>
+        <a href="#unternehmen">
+            <strong>Talente für Unternehmen</strong>
+        </a>
+    </div>
+
+    <div class="box box--primary box-half home-box">
+        <i class="fas fa-user"></i><br>
+        <a href="#kandidatinnen">
+            <strong>Karrierechancen für Kandidat:innen</strong>
+        </a>
+    </div>
+
+</div>
+
+<div class="margins-all">
+    Vertrauen Sie auf unsere Expertise in den Bereichen IT-Infrastruktur, Softwareentwicklung und IT-Projektmanagement.
+</div>
+
+
+
+
+
+
+
+<br>
+<hr class="section-sep">
+<br>
+
+
+
+
+
+<section id="ueber">
+    <h1>Über Uns</h1>
+
+    <div class="box-container margins-all">
+        <div class="box box--primary box-quarter home-box">
+            <i class="fas fa-user-tie"></i><br>
+            <strong>Jasper Schippmann</strong>
+        </div>
+
+        <div class="box box--primary box-quarter home-box">
+            <i class="fas fa-user-tie"></i><br>
+            <strong>Lukas Griesser</strong>
+        </div>
+
+        <div class="box box--primary box-quarter home-box">
+            <i class="fas fa-user-tie"></i><br>
+            <strong>Khuong Le</strong>
+        </div>
+
+        <div class="box box--primary box-quarter home-box">
+            <i class="fas fa-user-tie"></i><br>
+            <strong>Dennis Weyandt</strong>
+        </div>
+    </div>
+
+    <p>
+        Wir sind ein Team aus leidenschaftlichen Personalberatern mit umfassender Erfahrung in der IT-Branche.
+        Unser Ziel ist es, die Brücke zwischen <span class="blue">IT-Professionals</span> und
+        <span class="blue">Unternehmen</span> zu schlagen.
+    </p>
+
+    <div class="text-image-container box box--info padding margins-all">
+        <p>
+            Mit unserem <i class="fas fa-map-marker-alt"></i>Standort in <strong>Bochum</strong> sind wir fest in der Region verwurzelt und bereit, Ihnen bei der Erreichung Ihrer Ziele zu helfen.
+            Mit unserem vollständig digitalen Prozess stehen wir Ihnen jedoch in ganz Deutschland zur Seite.
+        </p>
+        <img src="/assets/images/germany-outline.webp" class="align-right">
+    </div>
+
+</section>
+
+
+
+
+
+<br>
+<hr class="section-sep">
+<br>
+
+
+
+
+<section id="vorteile">
+
+    <h1>Ihre Vorteile mit uns</h1>
+    <h3 class="below">Warum Onward Ihre erste Wahl sein sollte</h3>
+
+    <div class="margins-all">
+        <p>
+            Mit Onward profitieren Sie von einem maßgeschneiderten Ansatz, der sowohl Kandidat:innen als auch Kund:innen in den Mittelpunkt stellt. Wir bieten Ihnen:
+        </p>
+
+        <ul class="advantages-list">
+            <li><strong>Individuelle Beratung:</strong> Persönliche Betreuung und maßgeschneiderte Lösungen für Ihre Bedürfnisse.</li>
+            <li><strong>Exklusive Jobangebote:</strong> Zugang zu attraktiven Stellen in der IT-Branche, die nicht öffentlich ausgeschrieben sind.</li>
+            <li><strong>Marktkenntnis:</strong> Unser tiefes Verständnis des IT-Marktes ermöglicht es uns, die besten Talente schnell und effektiv zu finden.</li>
+            <li><strong>Netzwerk:</strong> Profitieren Sie von unserem umfangreichen Netzwerk in der IT-Branche für wertvolle Kontakte.</li>
+        </ul>
+    </div>
+
+</section>
+
+
+
+
+
+
+<br>
+<hr class="section-sep">
+<br>
+
+
+
+
+
+<section id="kandidatinnen">
+
+    <h1>Für Sie als Kandidat:in</h1>
+    <h3 class="below">Ihr Weg zum nächsten Karriereschritt</h3>
+
+    <div class="margins-all">
+        <p>
+            Bei Onward unterstützen wir <span class="blue">IT-Professionals</span> – egal, ob Sie am Anfang Ihrer Karriere stehen oder bereits <strong>Führungserfahrung</strong> haben. Wir bieten Ihnen Zugang zu exklusiven Jobangeboten bei ausgewählten Partnerunternehmen in ganz Deutschland.
+        </p>
+        <p>
+            Wir legen großen Wert auf eine partnerschaftliche <span class="blue">Beratung auf Augenhöhe</span>, bei uns stehen <strong>Ehrlichkeit</strong> und <strong>Transparenz</strong> im Fokus. Unser Service ist für Sie immer kostenfrei und individuell zugeschnitten.
+        </p>
+        <p>
+            Sie finden über uns die passende <span class="blue">Karrieremöglichkeit</span>, und unser:e Kund:in gewinnt eine:n fähige:n Mitarbeiter:in – eine klassische <strong>Win-Win-Situation <i class="fas fa-handshake"></i></strong>.
+        </p>
+    </div>
+
+    <div class="margins-all">
+        <a href="#kontakt" class="btn btn--cta white">Jetzt kontaktieren und loslegen!</a>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<br>
+<hr class="section-sep">
+<br>
+
+
+
+
+<section id="unternehmen">
+
+    <h1>Für Sie als Unternehmen</h1>
+    <h3 class="below">Gemeinsam erfolgreich</h3>
+
+    <div class="margins-all">
+        <p>
+            Als Ihr <span class="blue">strategischer Partner im Recruiting</span> verstehen wir die speziellen Anforderungen der IT-Branche. Bei Onward arbeiten wir nach den modernsten Methoden, um die <strong>besten Talente</strong> für Sie zu gewinnen.
+        </p>
+        <p>
+            In einem ersten <span class="blue">Analyse- und Strategiegespräch</span> ermitteln wir Ihre Bedürfnisse, um daraufhin unsere Suche zu starten. Da wir auf <strong>Erfolgsbasis</strong> arbeiten, kommt für Sie erst ein Vermittlungshonorar zustande, wenn Sie eine:n unserer Kandidat:innen einstellen.
+        </p>
+        <p>
+            Unser Ziel ist es, Ihnen <span class="blue">maßgeschneiderte Lösungen</span> für Ihre Recruiting-Ziele zu bieten und eine langfristige Partnerschaft aufzubauen, die auf <strong>Vertrauen</strong> und <strong>Zufriedenheit</strong> basiert.
+        </p>
+    </div>
+
+    <div class="margins-all">
+        <a href="#kontakt" class="btn btn--cta white">Jetzt Talente finden!</a>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+<br>
+<hr class="section-sep">
+<br>
+
+
+
+
+<section id="kontakt">
+
+    <h1>Kontaktieren Sie uns</h1>
+
+    <div class="notice--info">
+
+        <p class="bigger">
+        Wir sind für Sie da und freuen uns auf Ihre unverbindliche Anfrage -
+        schreiben Sie uns einfach eine E-Mail und lassen Sie uns gemeinsam den nächsten Schritt gehen!
+        </p>
+
+        <div class="logo-colored-icon">
+            <i class="fas fa-envelope"></i>
+        </div>
+
+        <a href="mailto:info@onward-recruiting.de" class="notice-link bigger">info@onward-recruiting.de</a>
+
+    </div>
+
+
+</section>
+
+
+
+    </section>
+</div>
+
+      </div>
+
+      <div id="footer" class="page__footer">
+        <footer>
+          <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+          <div class="page__footer-follow">
+
+  <img src="/assets/images/logo.webp" alt="Onward Recruiting Logo" class="footer-logo">
+
+  <div class="spacing">
+  <ul class="socials">
+
+    <li></li>
+
+    
+    
+    <li class="socials__item">
+      <a href="mailto: info@onward-recruiting.de" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Email">
+        <i class="fa fa-envelope footer-icon" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+    
+    
+    
+    
+    <li class="socials__item">
+      <a href="https://www.instagram.com/onward.recruiting/" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Instagram">
+        <i class="fab fa-instagram footer-icon" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+    
+
+    <li class="socials__item">
+      <a href="/imprint" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Imprint">
+        <i class="fas fa-gavel footer-icon" aria-hidden="true"></i>
+      </a>
+    </li>
+
+  </ul>
+  </div>
+
+  </div>
+
+  <div class="page__footer-copyright">&copy; 2024 Onward Recruiting GmbH.  Created by <a rel="noopener noreferrer nofollow" target="_blank"href="https://perstarke-webdev.de">Per Starke Web Development</a></div>
+
+        </footer>
+      </div>
+
+    
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+  </body>
+</html>

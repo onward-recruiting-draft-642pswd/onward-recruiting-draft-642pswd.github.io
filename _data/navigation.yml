@@ -1,0 +1,17 @@
+# main links
+main:
+  - title: "Über uns"
+    url: /#ueber
+    blank: false
+  - title: "Vorteile"
+    url: /#vorteile
+    blank: false
+  - title: "Als Kandidat:in"
+    url: /#kandidatinnen
+    blank: false
+  - title: "Als Unternehmen"
+    url: /#unternehmen
+    blank: false
+  - title: "Kontakt"
+    url: /#kontakt
+    blank: false
